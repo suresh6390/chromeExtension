@@ -1,0 +1,17 @@
+{
+    "name": "Simplify",
+    "version": "1.0",
+    "description": "New experience",
+    "manifest_version": 2,
+    "permissions": ["contextMenus"],
+    "browser_action": {
+        "default_title": "SIMPLIFY"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128" : "./128icon.png"
+    }
+    
+}
